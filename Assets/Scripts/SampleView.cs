@@ -3,7 +3,7 @@ using UnityEngine.Localization;
 
 namespace Monry.StringBasedLocalization
 {
-    public class SampleView : MonoBehaviour
+    public class SampleView : LocalizableMonoBehaviour
     {
         [SerializeField] private LocalizedString _localizedString;
 
